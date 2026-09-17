@@ -1,0 +1,5 @@
+name: gateway-alone
+work_envs:
+  dep_root: ''
+  deps: []
+sys_models: []

@@ -1,15 +1,22 @@
 # 系统变量参考（默认值来自 /Users/zuowenjian/devspace/rust/x-topology/gateway-alone/wist-gateway-stack/sys/merged_vars.yml）。
 # 只取消注释需要覆盖的项并修改数值，其余取默认值。
-IMAGE_SPC: dy-sec.tencentcloudcr.com/cloud
-# GATEWAY_TAG: v0.1.1-alpha.1
-# WEB_TAG: v0.1.4-alpha
-# VM_TAG: v1.133.0
-# WPARSE_TAG: latest
+# IMAGE_SPC: ghcr.io/dayu-sec
+# GATEWAY_TAG: v0.1.7-alpha
+# WEB_TAG: v0.1.6-alpha
+# VM_TAG: v1.153.0
+# WPARSE_IMAGE: ghcr.io/wp-labs/warp-parse
+# WPARSE_TAG: 0.27.1-alpha
 # GATEWAY_PORT: 3000
 # WEB_PORT: 8443
 # VM_PORT: 18429
+# WPARSE_PORT: 9000
 # RETENTION_PERIOD: 6
 # TZ: Asia/Shanghai
+# WEB_DOMAIN: c-dev01.test.gw.jingang.cloud
 # GATEWAY_CONFIG_DIR: ./configs/gateway
 # WEB_NGINX_CONF: ./configs/web/nginx.conf
-# WPARSE_WORK_DIR: ./sysrun/data-plane
+# WEB_TLS_DIR: ./configs/web/tls
+# WPARSE_WORK_DIR: ./data-plane
+# WPARSE_RUN_DATA: ./data-plane-run/data
+# WPARSE_RUN_STATE: ./data-plane-run/.run
+# PACKAGE_DIR: ./packages

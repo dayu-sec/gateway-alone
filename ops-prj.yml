@@ -8,4 +8,4 @@ sys_models:
     kind: docker-compose
     vender: dayu-sec
   addr:
-    url: https://github.com/dayu-sec/wist-gateway-stack/releases/download/v0.1.7-alpha/wist-gateway-stack-v0.1.7-alpha.tar.gz
+    url: https://github.com/dayu-sec/wist-gateway-stack/releases/download/v0.1.8-alpha/wist-gateway-stack-v0.1.8-alpha.tar.gz

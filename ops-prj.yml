@@ -2,4 +2,10 @@ name: gateway-alone
 work_envs:
   dep_root: ''
   deps: []
-sys_models: []
+sys_models:
+- sys:
+    name: wist-gateway-stack
+    kind: docker-compose
+    vender: dayu-sec
+  addr:
+    url: https://github.com/dayu-sec/wist-gateway-stack/releases/download/v0.1.7-alpha/wist-gateway-stack-v0.1.7-alpha.tar.gz
